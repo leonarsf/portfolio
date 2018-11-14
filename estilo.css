@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Superscratchy';
+    src: url('Superscratchy.woff2') format('woff2'),
+    url('Superscratchy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+.titulo{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	padding-top: 45px;
+}
+.fundo{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header{
+	font-family: 'Superscratchy';
+}
+
+.imag{
+	position: absolute;
+	top: 220px;
+	left: 8px;
+	width:260px; 
+	height:260px;
+}
+.imag2{
+	position: absolute;
+	top: 190px;
+	left: -30px;
+	width:350px; 
+	height:350px;
+}
+
+nav a h3{
+	position: absolute;
+	top: 400px;
+	width: 300px;
+	font-size: 28px;
+}
+
+a{
+ text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;	
+    color: #000;
+}
+
+.iconeb{
+	width: 200px;
+ 	height: 200px;
+ 	position: absolute;
+ 	top: 280px;
+}
+
+#c1{
+ left: 240px;
+}
+#c2{
+ left: 430px;
+}
+#c3{
+ left: 620px;
+}
+#c4{
+ left: 810px;
+}
+#c5{
+ left: 1000px;
+}
+#c6{
+ left: 1170px;
+}
+
+
+
+h2{
+	position: absolute;
+	top: 420px;
+	left: 60px;
+	z-index: 2;
+	font-size: 36px;
+}
+
+h5{
+	position: absolute;
+	top: 255px;
+	left: 270px;
+	z-index: 2;
+	font-size: 18px;
+}
+
+
+
+p{
+	position: absolute;
+	top: 480px;
+	left: 80px;
+	font-size: 24px;
+	margin: 50px;
+}
+
+
+
+footer{
+		font-family: 'Superscratchy';
+		font-size: 20px;
+		position: absolute;
+		top: 850px;
+		left: 250px;
+}
+
+.iconec{
+	height:6	0px; 
+	width:60px;
+	position: absolute;
+	z-index: 1;
+}
+
+#iconec1{
+	top: 55px;
+	left: 248px;
+}
+
+#iconec2{
+	top: 130px;
+	left: 248px;
+}
+
+
+.rodape{
+	position: absolute;
+	left: 230px;
+	top: 40px;
+	width: 100px;
+ 	height: 100px;
+}
+
+.rodape2{
+	position: absolute;
+	left: 230px;
+	top: 110px;
+	width: 100px;
+ 	height: 100px;
+}
+
+
+footer a:hover{
+	color: #3787ef;
+}
+
+
+.social{
+  position: absolute;
+  left: 320px;
+}
+
+.mail{
+	position: absolute;
+	left: 730px;
+	top: 55px;
+	margin-top: 10px;
+}
+
+.voltar{
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	right: 10px;
+	top: -10px;
+}
+
+
+#link1{
+	position: absolute;
+	top: 20px;
+	left: 260px;
+}
+
+
+#link2{
+	position: absolute;
+	top: 20px;
+	left: 460px;
+}
+
+
+#link3{
+	position: absolute;
+	top: 20px;
+	left: 650px;
+}
+
+
+#link4{
+	position: absolute;
+	top: 20px;
+	left: 840px;
+}
+
+#link5{
+	position: absolute;
+	top: 20px;
+	left: 1060px;
+}
+
+#link6{
+	position: absolute;
+	top: 20px;
+	left: 1210px;
+}
+
+.linkmain{
+
+}
+
+.linkmain a:visited {
+    color: #000;
+}
+
+.linkmain a:hover {
+	color: #fffad3;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+	font-size: 26px;
+}
+
+.linkmain:hover{
+	color: #fffad3;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+	font-size: 26px;
+}

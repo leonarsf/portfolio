@@ -1,0 +1,159 @@
+.titulo{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	padding-top: 45px;
+}
+
+article{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+
+article h3 {
+	text-align: center;
+	font-family: 'Superscratchy';
+	font-size: 36px;
+}
+
+
+.miniatura{
+	position: absolute;
+	width:150px;
+	height:150px;
+	transition:0.5s;
+	object-fit:cover;
+	border:solid #37a879; 
+	border-radius: 5px; 
+	margin-top: -20px;
+}
+
+.miniatura:hover{
+	opacity:0.3;
+}
+
+#overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+	background-color: rgba(0,0,0,0.9);
+}
+#lightbox{
+	display:flex;
+	animation: Aparecer 1s;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index:10;
+	width:auto;
+	height:auto;
+	padding:5px;
+	background:#fff;
+	border: solid #66e2c5 ;
+	border-radius:2px;
+
+}
+@keyframes Aparecer{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+#lightbox img{
+	max-width:80vw;
+	max-height:80vh;
+}
+.fechar{
+	position:fixed;
+	font-size:30px;
+	margin:auto;
+	width:35px;
+	height:35px;
+	text-align:center;
+	font-weight:bold;
+	color:black;
+	background:white;
+	border-radius:50%;
+	left:98%;
+	top:-5%;
+	transition:0.3s;
+}
+.fechar:hover{
+	color:white;
+	background:black;
+}
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 5px 5px;
+ }
+
+.cursor {
+  cursor: zoom-in;
+}
+
+.topo{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+	width:300px; 
+	height:300px;
+}
+
+.topo2{
+	position: absolute;
+	top: 40px;
+	left: 105px;
+	width:200px; 
+	height:200px;
+}
+
+
+section p {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+}
+
+
+.imag{
+  top: 5px;
+  height:200px; 
+  width:200px;
+}
+
+.imag2{
+	top: -15px;
+	left: -28px;
+	height:280px; 
+  	width:280px;
+
+}
+
+
+h2 {
+	top: 155px;
+	left: 30px;
+}
+
+#logo{
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 170px;
+	left: 730px;
+	z-index: -1; 
+	
+}
+

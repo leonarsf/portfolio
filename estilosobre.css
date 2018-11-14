@@ -1,0 +1,44 @@
+
+#desenho{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	top: 370px;
+	left: 800px;
+}
+.titulo{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.imag{
+  top: 20px;
+  height:200px; 
+  width:200px;
+}
+
+.imag2{
+	top: 10px;
+	left: -28px;
+	height:280px; 
+  	width:280px;
+
+}
+h2 {
+	top: 185px;
+	left: 30px;
+}
+
+p{
+ font-size: 22px;
+ top: 280px;
+ left: 20px;
+}
+
+h4{
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;	
+	padding-top: 25px;
+	text-align: center;
+}

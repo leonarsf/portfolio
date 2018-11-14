@@ -1,0 +1,87 @@
+.titulo{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	padding-top: 95px;
+}
+
+form{
+	position: absolute;
+	top: 380px;
+	left: 750px;
+	border: 
+	border-radius: 100px;
+
+}
+
+input{
+	border-radius: 10px;
+	height: 35px;
+	width: 400px;
+	background-color: #f9fffc;
+}
+textarea{
+	background-color: #f9fffc;
+}
+
+label{
+ font-family: 'Superscratchy';
+ font-size: 24px;
+}
+
+
+
+#piramide{
+ height:250px; 
+ width:250px;
+ position: absolute;
+ bottom: 100px;
+ left:835px;
+}
+
+#nave{
+	position: absolute;
+	top: 480px;
+	left:1000px;
+}
+
+.imag{
+  top: 20px;
+  height:200px; 
+  width:200px;
+}
+
+.imag2{
+	top: 10px;
+	left: -28px;
+	height:280px; 
+  	width:280px;
+
+}
+h2 {
+	top: 185px;
+	left: 30px;
+}
+
+#det{
+	font-family: 'Superscratchy';
+	font-size: 22px;
+}
+
+#det:hover {
+	color: #fffad3;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+	font-size: 26px;
+}
+
+#caricatura{
+	height: 800px;
+	width: 1400px;
+	position: absolute;
+	top: 200px;
+	right: 350px;
+}
+.social{
+	top:80px;
+}
+
+
